@@ -1,0 +1,152 @@
+.views-list, .snapshots-list {
+  margin-top: 2rem;
+}
+
+.views-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.view-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.view-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.view-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.view-results, .snapshot-results {
+  margin-top: 2rem;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.query-executor {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.query-input-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.query-textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+  resize: vertical;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+.query-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.example-queries {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: fit-content;
+}
+
+.example-queries h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.example-queries ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.example-queries li {
+  margin-bottom: 0.5rem;
+}
+
+.example-query-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.3s;
+}
+
+.example-query-btn:hover {
+  background: #eef2ff;
+  border-color: #667eea;
+}
+
+.query-results {
+  grid-column: 1 / -1;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+.query-history {
+  grid-column: 1 / -1;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+.query-history ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.query-history li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.query-history code {
+  background: #f8f9fa;
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.query-history small {
+  color: #999;
+  font-size: 0.8rem;
+}
+

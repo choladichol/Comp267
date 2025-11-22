@@ -1,0 +1,70 @@
+.reports-layout {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.reports-sidebar {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: fit-content;
+}
+
+.reports-sidebar h3 {
+  margin-top: 0;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.reports-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reports-menu li {
+  margin-bottom: 0.5rem;
+}
+
+.reports-menu button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: #f8f9fa;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: left;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.reports-menu button:hover {
+  background: #eef2ff;
+  border-color: #667eea;
+}
+
+.reports-menu button.active {
+  background: #667eea;
+  color: white;
+  border-color: #667eea;
+}
+
+.reports-menu button svg {
+  font-size: 1.2rem;
+}
+
+.reports-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
